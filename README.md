@@ -7,7 +7,7 @@ The assignment marks the initial step in the inclusion process for the ShAI Boot
 
 The dataset comprises 148,654 records of employees with 13 columns, covering various job titles and years.
 
-The data type of coloumns is varying between int ,float and object
+The data type of columns is varying between int ,float and object
 
 Names and Data types of each column: Id int64 EmployeeName object JobTitle object BasePay float64 OvertimePay float64 OtherPay float64 Benefits float64 TotalPay float64 TotalPayBenefits float64 Year int64 Notes float64 Agency object Status float64
 
@@ -33,10 +33,12 @@ median value is a measure of central tendency that is not affected by extreme va
 Created histograms to visualize the distribution of salaries.
 the histogram shows that the most frequent salary is about 85,000-90,000 and the least frequent salary is about 300,000.
 Used pie charts to represent the proportion of employees in different departments(JobTitle).that shows the most frequent job in the data is transient operator.
+
 5. Grouped Analysis:
 
 The data was grouped by'Year' , 'JobTitle' , 'JobTitle' and 'Year' , 'Agency' and by 'OvertimePay', and summary statistics were calculated for each group.
 Average salaries were compared across different groups, revealing insights into variations based on grouping criteria.
+
 6. Simple Correlation Analysis:
 
 There are 8 numerical columns Id,BasePay,OvertimePay,OtherPay,Benefits,TotalPay,TotalPayBenefits and Year .found the correlation between TotalPay and other numerical columns ,also plotted a scatter plot to visualize the relationship. .
@@ -53,7 +55,7 @@ Longitudinal Analysis: Conducting a longitudinal analysis over multiple years co
 
 Employee Satisfaction Surveys: Complementing the quantitative analysis with qualitative insights through employee satisfaction surveys can provide a holistic understanding of how compensation impacts employee morale and satisfaction.
 
-8.Conclusion:
+8. Conclusion:
 
 In conclusion, this analysis equips stakeholders with actionable insights to enhance compensation strategies, streamline HR policies, and foster a work environment conducive to employee satisfaction and organizational success. Ongoing monitoring and iterative analyses will further refine these insights, ensuring adaptability to changing organizational dynamics.
 This report provides a concise overview of the key findings and suggests areas for further exploration and analysis.
