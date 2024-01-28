@@ -20,6 +20,7 @@ BasePay 609 OvertimePay 4 OtherPay 4 Benefits 36163 Notes 148654 Status 148654
 Basic statistics, including mean, median, mode, minimum, and maximum salary, were calculated.
 The salary distribution has a range of 568213.560, with a mean of 74768.322.
 Standard deviation indicates the degree of variability in salaries.
+
 3. Data Cleaning:
 
 To handle missing data by suitable method .
@@ -27,7 +28,8 @@ Notes and Status coloumns have not any value, all rows in there are null .we can
 In OvertimePay column ,In order to do not affect the accuracy will fill the null values with mean value .median value for OvertimePay is rejected to fill with null becuase that always zero and the min -0.010.
 In OtherPay column ,In order to do not affect the accuracy will fill the null values i mean value.Don not choose the median value becuase it is so small according to the mean and max of OtherPay.
 In Benefits and BasePay columns are float type coloumn,In order to do not affect the accuracy will fill the null values with median value . In these two columns the mean and median are close.
-median value is a measure of central tendency that is not affected by extreme values (outliers) in the dataset for each coloumn.
+median value is a measure of central tendency that is not affected by extreme values (outliers) in the dataset for each column.
+
 4. Basic Data Visualization:
 
 Created histograms to visualize the distribution of salaries.
